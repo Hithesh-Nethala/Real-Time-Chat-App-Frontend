@@ -1,0 +1,60 @@
+.chat-main{
+    background-color:cadetblue;
+    height: 100vh;
+    padding: 1.5rem;
+}
+.chat-cont{
+    border-radius:0.5rem;
+    height: 93vh;
+    background-color:bisque;
+    padding: 0.3rem;
+    display: flex;
+}
+
+.welcome-cont{
+    width:70%;
+    text-align: center;
+}
+.welcome-cont img{
+    width: 300px;
+}
+.welcome-p{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
+}
+.welcome-p2{
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
+}
+.welcome-user{
+    font-weight: 600;
+}
+.welcome-i{
+    margin-left: auto;
+    width:max-content;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+@media (max-width:767px){
+    .chat-main{
+        padding: 0.5rem;
+    }
+    .chat-cont{
+        padding: 0.1rem;
+        height: 96vh;
+    }
+}
+
+@media (max-width:480px){
+    .chat-main{
+        padding: 0.5rem;
+    }
+    .chat-cont{
+        padding: 0.1rem;
+        height: 96vh;
+        border: 1px solid red;
+    }
+}
