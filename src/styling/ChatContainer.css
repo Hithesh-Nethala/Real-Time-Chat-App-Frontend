@@ -118,6 +118,7 @@ input:focus {
   flex-direction: column;
   padding: 0.2rem;
   overflow-y: auto;
+  width: 100%;
 }
 .msgs-cont::-webkit-scrollbar {
   width: 6px;
@@ -128,9 +129,10 @@ input:focus {
 }
 .message-sent{
   background-color:darkslategrey;
-  width:max-content;
+  width:90%;
+  max-width: max-content;
   padding: 0.3rem;
-  text-align: right;
+  text-align:start;
   align-self: flex-end;
   margin-bottom: 5px;
   margin-right: 5px;
@@ -140,7 +142,8 @@ input:focus {
 }
 .message-received{
   background-color:rgb(71, 129, 131);
-  width:max-content;
+  width:90%;
+  max-width: max-content;
   padding: 0.3rem;
   align-self: flex-start;
   text-align: left;
